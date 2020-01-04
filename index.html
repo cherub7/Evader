@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Evader</title>
+</head>
+<body style="background-color: grey;">
+    <audio id="portal" src="./sound/portal.wav"></audio>
+    <audio id="achievement" src="./sound/achievement.wav"></audio>
+    <audio id="crash" src="./sound/crash.mp3"></audio>
+
+    <center>
+        <canvas id="play-area" height="500px" width="800px" style="background-color: black;">
+            Canvas not supported by the browser :(
+        </canvas>
+
+        <div id="info">
+            <i>evasion is your only option...</i>
+            <p>
+                This game was(is still being) developed to implement most of the design patterns that I read from this <a href="https://gameprogrammingpatterns.com/"> amazing book!</a>
+                You can find the code for this game at this git <a href="">repository</a>. 
+                I'll make sure that all the design patterns used are mentioned in the README file of the repo and also comments are added in the source code wherever they are used. 
+                Feel free to fork, commit and raise PRs :)
+            </p>
+        </div>
+    </center>
+</body>
+    <script src="./pattern/observer.js"></script>
+    <script src="./pattern/audio.js"></script>
+
+    <script src="./object/object.js"></script>
+    <script src="./object/ship.js"></script>
+    <script src="./object/destination.js"></script>
+    <script src="./object/captiva.js"></script>
+    <script src="./object/asteroid.js"></script>
+    <script src="./object/end_captiva.js"></script>
+    <script src="./object/end_destination.js"></script>
+
+    <script src="./pattern/command.js"></script>
+    <script src="./pattern/input.js"></script>
+
+    <script src="./level/menu.js"></script>
+    <script src="./level/asteriod_shower.js"></script>
+    <script src="./level/twin_captiva.js"></script>
+    <script src="./level/showdown.js"></script>
+
+    <script src="./pattern/game_loop.js"></script>
+    
+</html>
