@@ -29,6 +29,7 @@ class Game {
         this.eventIndex = 0;
 
         this.userObject = undefined;
+        this.canvas.onclick = undefined;
     }
 
     // Updates the state of the world for the elapsed time since last render
